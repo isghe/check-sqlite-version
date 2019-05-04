@@ -23,6 +23,7 @@ The `release` doesn't use asserts
 $ ./out/check-sqlite-version.out
 SQLITE_VERSION_NUMBER: 3024000;
 sqlite3_libversion_number(): 3024000;
+ret: 0;
 ```
 ### debug
 The `debug` use asserts
@@ -30,6 +31,7 @@ The `debug` use asserts
 $ ./out/check-sqlite-version_d.out
 SQLITE_VERSION_NUMBER: 3024000;
 sqlite3_libversion_number(): 3024000;
+ret: 0;
 ```
 Example of assertion failure:
 ```bash
