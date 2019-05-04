@@ -12,5 +12,4 @@ release: Makefile main.c
 
 .PHONY: clean
 clean:
-	-rm -f *.out
-	-rm -rf *.dSYM
+	-rm -rf out/
