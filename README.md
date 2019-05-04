@@ -2,6 +2,13 @@
 
 Very simple program in `C` to check SQLite header version against SQLite library version
 
+* [Install](#install)
+* [Run](#run)
+	* [release](#release)
+	* [debug](#debug)
+* [See also](#see-also)
+* [Donations](#donations)
+
 ## Install
 ```
 $ mkdir out
@@ -32,8 +39,8 @@ sqlite3_libversion_number(): 3007017;
 check-sqlite-version_d.out: main.c:19: main: Assertion `sqlite3_libversion_number()==3028000' failed.
 Aborted
 ```
-
+# See also
 See also https://www.sqlite.org/c3ref/libversion.html
 
----
+# Donations
 Donations are welcome `1SQL1ifUuKy8WA9PvBoMj9EHDn16VDyAR`
