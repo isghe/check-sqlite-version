@@ -28,8 +28,9 @@ int main(void){
 		&& (strcmp(sqlite3_libversion(),SQLITE_VERSION)==0)){
 		ret = EXIT_SUCCESS;
 	}
-	printf ("ret: %d;\n", ret);
 	#endif
+
+	printf ("ret: %d;\n", ret);
 
 	return ret;
 }
