@@ -18,5 +18,8 @@ $ ./out/check-sqlite-version_d.out
 SQLITE_VERSION_NUMBER: 3024000;
 sqlite3_libversion_number(): 3024000;
 ```
+
+See also https://www.sqlite.org/c3ref/libversion.html
+
 ---
 Donations are welcome `1SQL1ifUuKy8WA9PvBoMj9EHDn16VDyAR`
