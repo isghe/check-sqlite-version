@@ -10,7 +10,7 @@ Very simple program in `C` to check SQLite header version against SQLite library
 * [Donations](#donations)
 
 ## Install
-```
+```bash
 $ mkdir out
 $ make
 gcc -Wall -ansi -pedantic -Wextra -O3 main.c -lsqlite3 -o out/check-sqlite-version.out
@@ -19,20 +19,20 @@ gcc -Wall -ansi -pedantic -Wextra -g -D_DEBUG main.c -lsqlite3 -o out/check-sqli
 ## Run
 ### release
 The `release` doesn't use asserts
-```
+```bash
 $ ./out/check-sqlite-version.out
 SQLITE_VERSION_NUMBER: 3024000;
 sqlite3_libversion_number(): 3024000;
 ```
 ### debug
 The `debug` use asserts
-```
+```bash
 $ ./out/check-sqlite-version_d.out
 SQLITE_VERSION_NUMBER: 3024000;
 sqlite3_libversion_number(): 3024000;
 ```
 Example of assertion failure:
-```
+```bash
 $ ./out/check-sqlite-version_d.out
 SQLITE_VERSION_NUMBER: 3028000;
 sqlite3_libversion_number(): 3007017;
