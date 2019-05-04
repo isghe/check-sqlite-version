@@ -46,6 +46,7 @@ Aborted
 
 ```
 $ make clean
+rm -rf out/
 ```
 # See also
 See also https://www.sqlite.org/c3ref/libversion.html
