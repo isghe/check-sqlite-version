@@ -8,6 +8,9 @@
 #endif
 
 int main(void){
+/*
+	just a test
+*/
 	int ret = EXIT_FAILURE;
 
 	printf ("SQLITE_VERSION_NUMBER: %u;\n", SQLITE_VERSION_NUMBER);
